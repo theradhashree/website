@@ -1,0 +1,171 @@
+body {
+  background-color: rgb(254, 254, 182);
+}
+
+.home-page-carousel {
+  width: 1200px;
+  margin: 50px auto;
+  max-height: auto;
+}
+
+/* Card */
+
+.product-card {
+  display: flex;
+  flex-wrap: nowrap;
+  border-radius: 20px;
+  padding: 10px;
+  padding-bottom: unset;
+  max-width: fit-content;
+  background-image: url(https://lazarous.s3.eu-north-1.amazonaws.com/radhashree+images+background.png);
+  background-size: cover;
+}
+
+.card-container {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.column {
+  flex-wrap: nowrap;
+  padding: 10px;
+  box-sizing: "border-box";
+}
+
+/* column-1 */
+
+.brand-column {
+  width: 10%;
+}
+
+.brand-column img {
+  height: auto;
+  width: 100%;
+}
+
+/* column-2 */
+
+.info-column {
+  position: relative;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-concise-info,
+.product-name {
+  padding: 4px;
+  text-align: right;
+  font-family: "Lora", serif;
+  font-weight: 800;
+  font-style: italic;
+  margin-top: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 4;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.product-name {
+  margin-top: 5rem;
+}
+
+.info-column button {
+  align-self: flex-end;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 10rem;
+}
+
+.info-column button:hover {
+  background-color: rgb(40, 38, 38);
+}
+
+/* column-3 */
+
+.image-column {
+  width: auto;
+  padding: unset;
+  padding-left: 20px;
+}
+
+.image-column img {
+  height: 100%;
+  width: 100%;
+}
+
+/* This for transition on image */
+
+.image-column img {
+  border-radius: 25px;
+  background-color: #ececec;
+  transform: perspective(900px) scale(0.7);
+  box-shadow: 0px 20px 100px #555;
+  transition: 0.5s ease all;
+  background-image: url(https://lazarous.s3.eu-north-1.amazonaws.com/radhashree+background+2.png);
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+}
+
+.image-column:hover img {
+  cursor: pointer;
+  transform: rotate(0deg) scale(1) translateY(10px);
+}
+
+/* column-4 */
+
+.small-cards-column {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-product-card {
+  cursor: pointer;
+  border-radius: 4px;
+  height: 4rem;
+  width: 4rem;
+  margin-top: 15px;
+  box-shadow: 3px 3px 3px 3px rgb(156, 155, 155);
+}
+
+.small-product-card img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* column-5 */
+
+.menu-column {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-icon {
+  margin-right: 20px !important;
+}
+
+/* -----------------some more elements------------ */
+
+.product-details,
+.my-account-section,
+.profile-section {
+  padding: 20px;
+}
+
+.product-details *,
+.my-account-section,
+.profile-section {
+  font-family: "Lora", serif;
+  font-weight: 800;
+  font-style: italic;
+}

@@ -1,16 +1,30 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.f0e51f79.css",
-    "main.js": "/website/static/js/main.49b75af2.js",
+    "main.css": "/website/static/css/main.2d9941ff.css",
+    "main.js": "/website/static/js/main.14f6298c.js",
     "static/js/453.84152676.chunk.js": "/website/static/js/453.84152676.chunk.js",
+    "static/media/middle_image_background.png": "/website/static/media/middle_image_background.ec8d547a1686bed5b466.png",
+    "static/media/carousel_background.png": "/website/static/media/carousel_background.3487280339ab74cf67ce.png",
+    "static/media/purple_gopi_dress_image_4.png": "/website/static/media/purple_gopi_dress_image_4.d6b63a7404f422cf2345.png",
+    "static/media/purple_gopi_dress_image_1.png": "/website/static/media/purple_gopi_dress_image_1.244127bb881936ffecb8.png",
+    "static/media/purple_gopi_dress_image_3.png": "/website/static/media/purple_gopi_dress_image_3.806b120096573a861bce.png",
+    "static/media/purple_gopi_dress_image_2.png": "/website/static/media/purple_gopi_dress_image_2.afef9841dd998e568865.png",
+    "static/media/sky_blue_dress_image_2.png": "/website/static/media/sky_blue_dress_image_2.7875aba2e3d939e3d261.png",
+    "static/media/sky_blue_dress_image_1.png": "/website/static/media/sky_blue_dress_image_1.55b173025042c0a385fc.png",
+    "static/media/green_gopi_dress_image_4.png": "/website/static/media/green_gopi_dress_image_4.6bf3d0c4ff7743254198.png",
+    "static/media/green_gopi_dress_image_3.png": "/website/static/media/green_gopi_dress_image_3.fd3af067b9179897b616.png",
+    "static/media/green_gopi_dress_image_2.png": "/website/static/media/green_gopi_dress_image_2.c3bae4fccf4b577c8c20.png",
+    "static/media/sky_blue_dress_image_4.png": "/website/static/media/sky_blue_dress_image_4.ae138f8fd3da74fabcf6.png",
+    "static/media/green_gopi_dress_image_1.png": "/website/static/media/green_gopi_dress_image_1.a78e0f5e691a86962021.png",
+    "static/media/sky_blue_dress_image_3.png": "/website/static/media/sky_blue_dress_image_3.e3ef82515ea92add480b.png",
     "static/media/brand_logo.png": "/website/static/media/brand_logo.1a127a72b230e9f004ab.png",
     "index.html": "/website/index.html",
-    "main.f0e51f79.css.map": "/website/static/css/main.f0e51f79.css.map",
-    "main.49b75af2.js.map": "/website/static/js/main.49b75af2.js.map",
+    "main.2d9941ff.css.map": "/website/static/css/main.2d9941ff.css.map",
+    "main.14f6298c.js.map": "/website/static/js/main.14f6298c.js.map",
     "453.84152676.chunk.js.map": "/website/static/js/453.84152676.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0e51f79.css",
-    "static/js/main.49b75af2.js"
+    "static/css/main.2d9941ff.css",
+    "static/js/main.14f6298c.js"
   ]
 }

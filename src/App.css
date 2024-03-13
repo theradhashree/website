@@ -19,7 +19,7 @@ body {
   padding: 10px;
   padding-bottom: unset;
   max-width: fit-content;
-  background-image: url(https://lazarous.s3.eu-north-1.amazonaws.com/radhashree+images+background.png);
+  background-image: url(./assets/Images/carousel_background.png);
   background-size: cover;
 }
 
@@ -109,7 +109,7 @@ body {
   transform: perspective(900px) scale(0.7);
   box-shadow: 0px 20px 100px #555;
   transition: 0.5s ease all;
-  background-image: url(https://lazarous.s3.eu-north-1.amazonaws.com/radhashree+background+2.png);
+  background-image: url(./assets/Images/middle_image_background.png);
   border-top-left-radius: 25%;
   border-top-right-radius: 25%;
 }

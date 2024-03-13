@@ -1,3 +1,18 @@
+import img11 from "./Images/purple_gopi_dress_image_1.png"
+import img12 from "./Images/purple_gopi_dress_image_2.png";
+import img13 from "./Images/purple_gopi_dress_image_3.png";
+import img14 from "./Images/purple_gopi_dress_image_4.png";
+import img21 from "./Images/sky_blue_dress_image_1.png";
+import img22 from "./Images/sky_blue_dress_image_2.png";
+import img23 from "./Images/sky_blue_dress_image_3.png";
+import img24 from "./Images/sky_blue_dress_image_4.png";
+import img31 from "./Images/green_gopi_dress_image_1.png";
+import img32 from "./Images/green_gopi_dress_image_2.png";
+import img33 from "./Images/green_gopi_dress_image_3.png";
+import img34 from "./Images/green_gopi_dress_image_4.png";
+
+
+
 export const PRODUCTS = [
   {
     id: 1,
@@ -10,22 +25,22 @@ export const PRODUCTS = [
     image: [
       {
         id: 11,
-        src: "https://lazarous.s3.eu-north-1.amazonaws.com/purple_gopi_dress_image_1.png",
+        src: img11,
         alt: "purple-gopi-dress-1",
       },
       {
         id: 12,
-        src: "https://lazarous.s3.eu-north-1.amazonaws.com/purple_gopi_dress_image_2.png",
+        src: img12,
         alt: "purple-gopi-dress-2",
       },
       {
         id: 13,
-        src: "https://lazarous.s3.eu-north-1.amazonaws.com/purple_gopi_dress_image_3.png",
+        src: img13,
         alt: "purple-gopi-dress-3",
       },
       {
         id: 14,
-        src: "https://lazarous.s3.eu-north-1.amazonaws.com/purple_gopi_dress_image_4.png",
+        src: img14,
         alt: "purple-gopi-dress-4",
       },
     ],
@@ -41,22 +56,22 @@ export const PRODUCTS = [
     image: [
       {
         id: 21,
-        src: "https://lazarous.s3.eu-north-1.amazonaws.com/sky_blue_dress_image_1.png",
+        src: img21,
         alt: "",
       },
       {
         id: 22,
-        src: "https://lazarous.s3.eu-north-1.amazonaws.com/sky_blue_dress_image_2.png",
+        src: img22,
         alt: "",
       },
       {
         id: 23,
-        src: "https://lazarous.s3.eu-north-1.amazonaws.com/sky_blue_dress_image_3.png",
+        src: img23,
         alt: "",
       },
       {
         id: 24,
-        src: "https://lazarous.s3.eu-north-1.amazonaws.com/sky_blue_dress_image_4.png",
+        src: img24,
         alt: "",
       },
     ],
@@ -72,22 +87,22 @@ export const PRODUCTS = [
     image: [
       {
         id: 31,
-        src: "https://lazarous.s3.eu-north-1.amazonaws.com/green_gopi_dress_image_1.png",
+        src: img31,
         alt: "",
       },
       {
         id: 42,
-        src: "https://lazarous.s3.eu-north-1.amazonaws.com/green_gopi_dress_image_4.png",
+        src: img32,
         alt: "",
       },
       {
         id: 43,
-        src: "https://lazarous.s3.eu-north-1.amazonaws.com/green_gopi_dress_image_2.png",
+        src: img33,
         alt: "",
       },
       {
         id: 44,
-        src: "https://lazarous.s3.eu-north-1.amazonaws.com/green_gopi_dress_image_3.png",
+        src: img34,
         alt: "",
       },
     ],

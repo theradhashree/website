@@ -50,10 +50,6 @@ const TopMenu = () => {
     prevOpen.current = open;
   }, [open]);
 
-  function handleOpenMenu(item) {
-    navigate(`/${item}`);
-  }
-
   return (
     <Stack direction="row" spacing={2} sx={{justifyContent: "end"}}>
       <MenuIcon
@@ -89,11 +85,8 @@ const TopMenu = () => {
                   aria-labelledby="composition-button"
                   onKeyDown={handleListKeyDown}
                 >
-                  <MenuItem onClick={() => handleOpenMenu("my-account")}>
-                    My account
-                  </MenuItem>
-                  <MenuItem onClick={() => handleOpenMenu("logout")}>
-                    Logout
+                  <MenuItem>
+                    explore more...
                   </MenuItem>
                 </MenuList>
               </ClickAwayListener>

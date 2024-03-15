@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.7db2175d.css",
-    "main.js": "/website/static/js/main.4de5723e.js",
-    "static/js/453.84152676.chunk.js": "/website/static/js/453.84152676.chunk.js",
-    "static/media/purple_gopi_dress_image_4.png": "/website/static/media/purple_gopi_dress_image_4.d6b63a7404f422cf2345.png",
-    "static/media/purple_gopi_dress_image_1.png": "/website/static/media/purple_gopi_dress_image_1.244127bb881936ffecb8.png",
-    "static/media/purple_gopi_dress_image_3.png": "/website/static/media/purple_gopi_dress_image_3.806b120096573a861bce.png",
-    "static/media/purple_gopi_dress_image_2.png": "/website/static/media/purple_gopi_dress_image_2.afef9841dd998e568865.png",
-    "static/media/sky_blue_dress_image_2.png": "/website/static/media/sky_blue_dress_image_2.7875aba2e3d939e3d261.png",
-    "static/media/sky_blue_dress_image_1.png": "/website/static/media/sky_blue_dress_image_1.55b173025042c0a385fc.png",
-    "static/media/green_gopi_dress_image_4.png": "/website/static/media/green_gopi_dress_image_4.6bf3d0c4ff7743254198.png",
-    "static/media/green_gopi_dress_image_3.png": "/website/static/media/green_gopi_dress_image_3.fd3af067b9179897b616.png",
-    "static/media/green_gopi_dress_image_2.png": "/website/static/media/green_gopi_dress_image_2.c3bae4fccf4b577c8c20.png",
-    "static/media/sky_blue_dress_image_4.png": "/website/static/media/sky_blue_dress_image_4.ae138f8fd3da74fabcf6.png",
-    "static/media/green_gopi_dress_image_1.png": "/website/static/media/green_gopi_dress_image_1.a78e0f5e691a86962021.png",
-    "static/media/sky_blue_dress_image_3.png": "/website/static/media/sky_blue_dress_image_3.e3ef82515ea92add480b.png",
-    "static/media/brand_logo.png": "/website/static/media/brand_logo.1a127a72b230e9f004ab.png",
-    "index.html": "/website/index.html",
-    "main.7db2175d.css.map": "/website/static/css/main.7db2175d.css.map",
-    "main.4de5723e.js.map": "/website/static/js/main.4de5723e.js.map",
-    "453.84152676.chunk.js.map": "/website/static/js/453.84152676.chunk.js.map"
+    "main.css": "/static/css/main.7db2175d.css",
+    "main.js": "/static/js/main.e8b6ff6b.js",
+    "static/js/453.84152676.chunk.js": "/static/js/453.84152676.chunk.js",
+    "static/media/purple_gopi_dress_image_4.png": "/static/media/purple_gopi_dress_image_4.d6b63a7404f422cf2345.png",
+    "static/media/purple_gopi_dress_image_1.png": "/static/media/purple_gopi_dress_image_1.244127bb881936ffecb8.png",
+    "static/media/purple_gopi_dress_image_3.png": "/static/media/purple_gopi_dress_image_3.806b120096573a861bce.png",
+    "static/media/purple_gopi_dress_image_2.png": "/static/media/purple_gopi_dress_image_2.afef9841dd998e568865.png",
+    "static/media/sky_blue_dress_image_2.png": "/static/media/sky_blue_dress_image_2.7875aba2e3d939e3d261.png",
+    "static/media/sky_blue_dress_image_1.png": "/static/media/sky_blue_dress_image_1.55b173025042c0a385fc.png",
+    "static/media/green_gopi_dress_image_4.png": "/static/media/green_gopi_dress_image_4.6bf3d0c4ff7743254198.png",
+    "static/media/green_gopi_dress_image_3.png": "/static/media/green_gopi_dress_image_3.fd3af067b9179897b616.png",
+    "static/media/green_gopi_dress_image_2.png": "/static/media/green_gopi_dress_image_2.c3bae4fccf4b577c8c20.png",
+    "static/media/sky_blue_dress_image_4.png": "/static/media/sky_blue_dress_image_4.ae138f8fd3da74fabcf6.png",
+    "static/media/green_gopi_dress_image_1.png": "/static/media/green_gopi_dress_image_1.a78e0f5e691a86962021.png",
+    "static/media/sky_blue_dress_image_3.png": "/static/media/sky_blue_dress_image_3.e3ef82515ea92add480b.png",
+    "static/media/brand_logo.png": "/static/media/brand_logo.1a127a72b230e9f004ab.png",
+    "index.html": "/index.html",
+    "main.7db2175d.css.map": "/static/css/main.7db2175d.css.map",
+    "main.e8b6ff6b.js.map": "/static/js/main.e8b6ff6b.js.map",
+    "453.84152676.chunk.js.map": "/static/js/453.84152676.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7db2175d.css",
-    "static/js/main.4de5723e.js"
+    "static/js/main.e8b6ff6b.js"
   ]
 }

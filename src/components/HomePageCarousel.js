@@ -35,7 +35,9 @@ const HomePageCarousel = () => {
 
   return (
     <Carousel
-      infinite={true}
+      infiniteLoop={true}
+      autoPlay={true}
+      interval={2000}
       className="home-page-carousel"
       showThumbs={false}
       onChange={handleSlideChange}

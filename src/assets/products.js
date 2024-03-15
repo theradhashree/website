@@ -11,8 +11,6 @@ import img32 from "./Images/green_gopi_dress_image_2.png";
 import img33 from "./Images/green_gopi_dress_image_3.png";
 import img34 from "./Images/green_gopi_dress_image_4.png";
 
-
-
 export const PRODUCTS = [
   {
     id: 1,
@@ -26,22 +24,22 @@ export const PRODUCTS = [
       {
         id: 11,
         src: img11,
-        alt: "purple-gopi-dress-1",
+        alt: "purple-gopi-dress",
       },
       {
         id: 12,
         src: img12,
-        alt: "purple-gopi-dress-2",
+        alt: "purple-gopi-dress",
       },
       {
         id: 13,
         src: img13,
-        alt: "purple-gopi-dress-3",
+        alt: "purple-gopi-dress",
       },
       {
         id: 14,
         src: img14,
-        alt: "purple-gopi-dress-4",
+        alt: "purple-gopi-dress",
       },
     ],
   },
@@ -57,28 +55,28 @@ export const PRODUCTS = [
       {
         id: 21,
         src: img21,
-        alt: "",
+        alt: "sapphire-blue-gopi-lehenga",
       },
       {
         id: 22,
         src: img22,
-        alt: "",
+        alt: "sapphire-blue-gopi-lehenga",
       },
       {
         id: 23,
         src: img23,
-        alt: "",
+        alt: "sapphire-blue-gopi-lehenga",
       },
       {
         id: 24,
         src: img24,
-        alt: "",
+        alt: "sapphire-blue-gopi-lehenga",
       },
     ],
   },
   {
     id: 3,
-    name: "Enchanting Emerald Gopi dress",
+    name: "Enchanting Emerald Gopi Dress",
     concise_info:
       "The soft georgette fabric, full-sleeve blouse, and a hint of shrinkable charm make it perfect for graceful celebrations",
     detail_info:
@@ -88,22 +86,22 @@ export const PRODUCTS = [
       {
         id: 31,
         src: img31,
-        alt: "",
+        alt: "enchanting-emerald-gopi-dress",
       },
       {
         id: 42,
-        src: img32,
-        alt: "",
+        src: img34,
+        alt: "enchanting-emerald-gopi-dress",
       },
       {
         id: 43,
         src: img33,
-        alt: "",
+        alt: "enchanting-emerald-gopi-dress",
       },
       {
         id: 44,
-        src: img34,
-        alt: "",
+        src: img32,
+        alt: "enchanting-emerald-gopi-dress",
       },
     ],
   },

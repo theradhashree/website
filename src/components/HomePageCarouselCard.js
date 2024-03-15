@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
-import Menu from "./Menu.js";
 import ProductInfo from "./ProductInfo.js";
 import SmallProductsCard from "./SmallProductsCard.js";
 import BrandLogo from "./BrandLogo.js";
@@ -58,9 +57,6 @@ const HomePageCarouselCard = ({ product, bodyColor }) => {
                 bodyColor={bodyColor}
               />
             ))}
-          </Box>
-          <Box className="column menu-column">
-            <Menu />
           </Box>
         </Box>
       </Card>

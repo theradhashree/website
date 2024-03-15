@@ -40,7 +40,7 @@ const ProductInfo = ({
         size="medium"
         onClick={() => handleProductDetails(product_detail_info)}
       >
-        DETAILS
+        Coming Soon....
       </Button>
     </>
   );

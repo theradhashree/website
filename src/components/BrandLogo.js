@@ -1,4 +1,3 @@
-import React from "react";
 import brand_logo from "../assets/Images/brand_logo.png";
 import Box from "@mui/material/Box";
 import Image from "./Image";

@@ -1,15 +1,26 @@
-body {
-  background-color: rgb(235, 236, 231);
-}
-
 .home-page-carousel {
-  width: 1200px;
-  margin: 50px auto;
+  margin: 10px;
   max-height: auto;
 }
 
 .navbar {
-  background-color: rgb(27, 26, 26);
+  background-color: #2d3494;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+}
+
+.brand-name {
+  margin: auto;
+  color: white;
+  font-family: "Lora", serif;
+}
+
+.navbar .brand-name:hover {
+  transform: scale(1.2);
 }
 
 /* Card */
@@ -69,6 +80,7 @@ body {
   line-clamp: 4;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
+  color: #116b1e;
 }
 
 .product-name {
@@ -77,7 +89,7 @@ body {
 
 .info-column button {
   align-self: flex-end;
-  background-color: rgb(27, 26, 26);
+  background-color: #086315;
   padding: 10px;
   border-radius: 10px;
   margin-top: 20px;
@@ -85,7 +97,7 @@ body {
 }
 
 .info-column button:hover {
-  background-color: rgb(40, 38, 38);
+  background-color: #074c11;
 }
 
 /* column-3 */
@@ -103,7 +115,7 @@ body {
 
 /* This for transition on image */
 
-.image-column img {
+/* .image-column img {
   border-radius: 25px;
   background-color: #ececec;
   transform: perspective(900px) scale(0.7);
@@ -117,7 +129,7 @@ body {
 .image-column:hover img {
   cursor: pointer;
   transform: rotate(0deg) scale(1) translateY(10px);
-}
+} */
 
 /* column-4 */
 
@@ -146,7 +158,16 @@ body {
 
 /* -----------------some more elements------------ */
 
-a {
-  text-decoration: none;
-  color: white !important;
+.footer {
+  display: flex;
+  background-color: #ffcb05;
+  width: 100%;
+  height: 10rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer .icon {
+  font-size: xx-large;
+  color: #28a03a;
 }

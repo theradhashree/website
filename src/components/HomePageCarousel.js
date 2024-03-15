@@ -9,28 +9,18 @@ import { PRODUCTS } from "../assets/products";
  * @returns top most carousel on home page which includes topmost HomePageCarouselCard having hero images, and brand logo.
  */
 const HomePageCarousel = () => {
-  const [currentSlideNumber, setCurrentSlideNumber] = useState(0);
-  const [bodyColor, setBodyColor] = useState(PRODUCTS[0].color);
-
-  /**
-   * changes the body color according to the color set inside products
-   */
-  useEffect(() => {
-    document.body.style.backgroundColor = bodyColor;
-    //  eslint-disable-next-line
-  }, [currentSlideNumber]);
+  const [dressColor, setDressColor] = useState(PRODUCTS[0].color);
 
   /**
    * 
    * @param {number} event 
    * event on carousel return the slide number.
-   * this function sets the currentSlideNumber and bodyColor.
+   * this function sets the bodyColor.
    */
   const handleSlideChange = (event) => {
     const currentSlideNumber = event;
-    const currentImageColor = PRODUCTS[currentSlideNumber].color;
-    setCurrentSlideNumber(currentSlideNumber);
-    setBodyColor(currentImageColor);
+    const currentDressColor = PRODUCTS[currentSlideNumber].color;
+    setDressColor(currentDressColor);
   };
 
   return (
@@ -46,7 +36,7 @@ const HomePageCarousel = () => {
         <HomePageCarouselCard
           key={product.id}
           product={product}
-          bodyColor={bodyColor}
+          dressColor={dressColor}
         />
       ))}
     </Carousel>

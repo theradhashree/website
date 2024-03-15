@@ -1,4 +1,3 @@
-import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
@@ -24,8 +23,9 @@ function ResponsiveAppBar() {
                 color: "inherit",
                 textDecoration: "none",
               }}
+              className="brand-name"
             >
-              Home
+              The Radhashree
             </Typography>
           </Link>
           <Link to="/">
@@ -42,8 +42,9 @@ function ResponsiveAppBar() {
                 color: "inherit",
                 textDecoration: "none",
               }}
+              className="brand-name"
             >
-              Home
+              The Radhashree
             </Typography>
           </Link>
         </Toolbar>

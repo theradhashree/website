@@ -13,16 +13,16 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
  * @param {string}  bodyColor
  * @returns a single card of carousel
  */
-const HomePageCarouselCard = ({ product, bodyColor }) => {
+const HomePageCarouselCard = ({ product, dressColor }) => {
   const [centerImageUrl, setCenterImageUrl] = useState(product.image[1].src);
   const [centerImageAlt, setCenterImageAlt] = useState(product.image[1].alt);
   const [activeCardId, setActiveCardId] = useState(product.image[1].id);
 
   /**
-   * 
-   * @param {number} id 
-   * @param {string} img_src 
-   * @param {string} img_alt 
+   *
+   * @param {number} id
+   * @param {string} img_src
+   * @param {string} img_alt
    * This function sets the current small card whose image will come in middle
    */
   function handleCenteredImage(id, img_src, img_alt) {
@@ -54,7 +54,7 @@ const HomePageCarouselCard = ({ product, bodyColor }) => {
                 productImage={productImage}
                 activeCardId={activeCardId}
                 handleCenteredImage={handleCenteredImage}
-                bodyColor={bodyColor}
+                dressColor={dressColor}
               />
             ))}
           </Box>

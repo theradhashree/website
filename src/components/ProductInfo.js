@@ -1,7 +1,5 @@
-import React from "react";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-import { useNavigate } from "react-router-dom";
 
 /**
  * 
@@ -13,19 +11,7 @@ import { useNavigate } from "react-router-dom";
 const ProductInfo = ({
   product_name,
   product_concise_info,
-  product_detail_info,
 }) => {
-  const navigate = useNavigate();
-
-  /**
-   * 
-   * @param {string} detail_info 
-   * this function navigates to productDetail page which display the details like washing instructions, size and many more things.
-   */
-  function handleProductDetails(detail_info) {
-    navigate("/product-details", { state: { detail_info } });
-  }
-  console.log(product_concise_info, product_detail_info);
 
   return (
     <>
@@ -38,7 +24,6 @@ const ProductInfo = ({
       <Button
         variant="contained"
         size="medium"
-        onClick={() => handleProductDetails(product_detail_info)}
       >
         Coming Soon....
       </Button>

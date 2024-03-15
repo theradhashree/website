@@ -15,12 +15,12 @@ const SmallProductsCard = ({
   productImage,
   activeCardId,
   handleCenteredImage,
-  bodyColor,
+  dressColor,
 }) => {
   return (
     <Card
       className="small-product-card"
-      style={{ border: activeCardId === imageId && `2px solid ${bodyColor}` }}
+      style={{ border: activeCardId === imageId && `2px solid ${dressColor}` }}
       onClick={() =>
         handleCenteredImage(imageId, productImage.src, productImage.src)
       }

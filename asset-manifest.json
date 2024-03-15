@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7db2175d.css",
-    "main.js": "/static/js/main.e8b6ff6b.js",
+    "main.js": "/static/js/main.43760bab.js",
     "static/js/453.84152676.chunk.js": "/static/js/453.84152676.chunk.js",
     "static/media/purple_gopi_dress_image_4.png": "/static/media/purple_gopi_dress_image_4.d6b63a7404f422cf2345.png",
     "static/media/purple_gopi_dress_image_1.png": "/static/media/purple_gopi_dress_image_1.244127bb881936ffecb8.png",
@@ -18,11 +18,11 @@
     "static/media/brand_logo.png": "/static/media/brand_logo.1a127a72b230e9f004ab.png",
     "index.html": "/index.html",
     "main.7db2175d.css.map": "/static/css/main.7db2175d.css.map",
-    "main.e8b6ff6b.js.map": "/static/js/main.e8b6ff6b.js.map",
+    "main.43760bab.js.map": "/static/js/main.43760bab.js.map",
     "453.84152676.chunk.js.map": "/static/js/453.84152676.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7db2175d.css",
-    "static/js/main.e8b6ff6b.js"
+    "static/js/main.43760bab.js"
   ]
 }

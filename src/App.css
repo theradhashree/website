@@ -19,7 +19,7 @@ body {
   padding: 10px;
   padding-bottom: unset;
   max-width: fit-content;
-  background-image: url(./assets/Images/carousel_background.png);
+  background-image: url(https://lazarous.s3.eu-north-1.amazonaws.com/radhashree+images+background.png);
   background-size: cover;
 }
 
@@ -109,7 +109,7 @@ body {
   transform: perspective(900px) scale(0.7);
   box-shadow: 0px 20px 100px #555;
   transition: 0.5s ease all;
-  background-image: url(./assets/Images/middle_image_background.png);
+  background-image: url(https://lazarous.s3.eu-north-1.amazonaws.com/radhashree+background+2.png);
   border-top-left-radius: 25%;
   border-top-right-radius: 25%;
 }
@@ -166,7 +166,6 @@ body {
 }
 
 .product-details *,
-.my-account-section,
 .brand-section,
 .all-products {
   font-family: "Lora", serif;
@@ -177,4 +176,56 @@ body {
 a {
   text-decoration: none;
   color: white !important;
+}
+
+.my-account-section .row-1,
+.my-account-section .row-2,
+.my-account-section .row-3,
+.my-account-section .row-4,
+.my-account-section .row-5,
+.my-account-section .row-6,
+.my-account-section .row-7 {
+  display: flex;
+  line-height: 4;
+  margin: auto;
+  height: 50%;
+}
+
+.my-account-section .row-1{
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 1rem;
+}
+
+.my-account-section .first-heading {
+  font-family: "Lora", serif;
+  font-weight: 800;
+  font-style: italic;
+  color: rgb(76, 75, 75);
+}
+
+.my-account-section .second-heading {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-size: small;
+  color: #8e8c8c;
+}
+
+.my-account-section .card {
+  margin-bottom: 1rem;
+  padding: 10px;
+}
+
+.my-account-section .icon {
+  margin: auto 10px;
+  color: rgb(76, 75, 75);
+}
+
+.card.card-actions * {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-weight: 600;
+  color: rgb(76, 75, 75);
+  line-height: 2;
+  margin-left: 1rem;
 }

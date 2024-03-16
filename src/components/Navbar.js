@@ -14,11 +14,8 @@ function Navbar() {
               variant="h6"
               noWrap
               component="a"
-              href="#app-bar-with-responsive-menu"
               sx={{
                 mr: 2,
-                fontWeight: 700,
-                color: "inherit",
                 textDecoration: "none",
               }}
               className="brand-name"

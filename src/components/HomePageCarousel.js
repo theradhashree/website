@@ -29,6 +29,8 @@ const HomePageCarousel = () => {
       autoPlay={true}
       interval={2000}
       className="home-page-carousel"
+      preventMovementUntilSwipeScrollTolerance={true}
+      swipeScrollTolerance={50}
       showThumbs={false}
       onChange={handleSlideChange}
     >

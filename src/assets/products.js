@@ -1,4 +1,4 @@
-import img11 from "./Images/purple_gopi_dress_image_1.png"
+import img11 from "./Images/purple_gopi_dress_image_1.png";
 import img12 from "./Images/purple_gopi_dress_image_2.png";
 import img13 from "./Images/purple_gopi_dress_image_3.png";
 import img14 from "./Images/purple_gopi_dress_image_4.png";
@@ -45,7 +45,7 @@ export const PRODUCTS = [
   },
   {
     id: 2,
-    name: "Sapphire blue Gopi Lehenga",
+    name: "Sapphire Blue Gopi Lehenga",
     concise_info:
       "Radiate grace in our Sky Serenity Gopi Lehenga. Soft cotton-georgette meets intricate designs for timeless elegance.",
     detail_info:
@@ -76,7 +76,7 @@ export const PRODUCTS = [
   },
   {
     id: 3,
-    name: "Enchanting Emerald Gopi Dress",
+    name: "Emerald Gopi Dress",
     concise_info:
       "The soft georgette fabric, full-sleeve blouse, and a hint of shrinkable charm make it perfect for graceful celebrations",
     detail_info:
@@ -86,22 +86,22 @@ export const PRODUCTS = [
       {
         id: 31,
         src: img31,
-        alt: "enchanting-emerald-gopi-dress",
+        alt: "emerald-gopi-dress",
       },
       {
-        id: 42,
+        id: 32,
         src: img34,
-        alt: "enchanting-emerald-gopi-dress",
+        alt: "emerald-gopi-dress",
       },
       {
-        id: 43,
+        id: 33,
         src: img33,
-        alt: "enchanting-emerald-gopi-dress",
+        alt: "emerald-gopi-dress",
       },
       {
-        id: 44,
+        id: 34,
         src: img32,
-        alt: "enchanting-emerald-gopi-dress",
+        alt: "emerald-gopi-dress",
       },
     ],
   },

@@ -22,7 +22,7 @@
   box-sizing: border-box;
   width: 100%;
   padding: 10px;
-  overflow: scroll;
+  overflow: scroll !important;
 }
 
 /* Card */

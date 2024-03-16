@@ -1,8 +1,3 @@
-.home-page-carousel {
-  margin: 10px;
-  max-height: auto;
-}
-
 .navbar {
   background-color: #2d3494;
 }
@@ -21,6 +16,12 @@
 
 .navbar .brand-name:hover {
   transform: scale(1.2);
+}
+/* -------------------------------------------------- */
+.home-page-carousel {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
 }
 
 /* Card */
@@ -162,7 +163,7 @@
   display: flex;
   background-color: #ffcb05;
   width: 100%;
-  height: 10rem;
+  min-height: 10rem;
   justify-content: space-around;
   align-items: center;
 }
@@ -170,4 +171,44 @@
 .footer .icon {
   font-size: xx-large;
   color: #28a03a;
+}
+
+.footer .icon:hover {
+  box-sizing: border-box;
+  border: 2px solid #28a03a;
+  border-radius: 5px;
+}
+/* ---------------------------------- */
+
+@media only screen and (max-width: 1200px) {
+  .product-card {
+    max-width: unset;
+  }
+
+  .card-container {
+    all: unset;
+  }
+
+  .info-column {
+    all: unset;
+  }
+
+  .image-column {
+    width: 70%;
+    margin: auto;
+  }
+
+  .small-cards-column {
+    display: flex;
+    flex-direction: row;
+    width: unset;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .small-product-card {
+    height: 4rem;
+    width: 4rem;
+    margin-left: 1rem;
+  }
 }

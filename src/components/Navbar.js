@@ -4,8 +4,7 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { Link } from "react-router-dom";
 
-function ResponsiveAppBar() {
-
+function Navbar() {
   return (
     <AppBar position="sticky" className="navbar">
       <Container maxWidth="xl">
@@ -18,26 +17,6 @@ function ResponsiveAppBar() {
               href="#app-bar-with-responsive-menu"
               sx={{
                 mr: 2,
-                display: { xs: "none", md: "flex" },
-                fontWeight: 700,
-                color: "inherit",
-                textDecoration: "none",
-              }}
-              className="brand-name"
-            >
-              The Radhashree
-            </Typography>
-          </Link>
-          <Link to="/">
-            <Typography
-              variant="h5"
-              noWrap
-              component="a"
-              href="#app-bar-with-responsive-menu"
-              sx={{
-                mr: 2,
-                display: { xs: "flex", md: "none" },
-                flexGrow: 1,
                 fontWeight: 700,
                 color: "inherit",
                 textDecoration: "none",
@@ -52,4 +31,4 @@ function ResponsiveAppBar() {
     </AppBar>
   );
 }
-export default ResponsiveAppBar;
+export default Navbar;

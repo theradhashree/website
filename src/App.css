@@ -14,9 +14,6 @@
   font-family: "Lora", serif;
 }
 
-.navbar .brand-name:hover {
-  transform: scale(1.2);
-}
 /* -------------------------------------------------- */
 .home-page-carousel {
   box-sizing: border-box;

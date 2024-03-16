@@ -14,6 +14,9 @@
   font-family: "Lora", serif;
 }
 
+.navbar .brand-name:hover {
+  transform: scale(1.2);
+}
 /* -------------------------------------------------- */
 .home-page-carousel {
   box-sizing: border-box;
@@ -72,8 +75,7 @@
   font-weight: 800;
   font-style: italic;
   margin-top: 6px;
-  
-  
+  overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   line-clamp: 4;
@@ -179,6 +181,15 @@
 /* ---------------------------------- */
 
 @media only screen and (max-width: 1200px) {
+  .brand-column {
+    width: 40%;
+    margin: auto;
+  }
+
+  .product-name{
+    margin-top: unset;
+  }
+
   .product-card {
     max-width: unset;
   }
